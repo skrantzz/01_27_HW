@@ -1,21 +1,19 @@
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-#navbarNav {
+.btn {
   background-color: purple;
+  border-color: yellow;
+  color: white;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
-
-a.nav-link:hover {
-  color: yellow;
+.next-btn {
+  padding: 0;
 }
 
-/* html {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-} */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(172, 95, 227);
+}
+
+.hide {
+  display: none;
+}
