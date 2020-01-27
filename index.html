@@ -29,11 +29,11 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+      
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" id="highscores" href="#"
+        <a class="nav-item nav-link active" id="highscores" href="./highscore.html"
           >Highscores! <span class="sr-only">(current)</span></a
         >
         <div class="nav-item nav-link" id="countdown"></div>
@@ -54,31 +54,8 @@
           
         </p>
       </div>
-      <div id="choices">
-        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-    </div>
-    </div>
- 
+    
 
-  <!-- next button -->
-  <button type="button" id="next-btn" class="btn btn-warning">
-    <a href="#"></a>Next
-  </button>
-  <!-- submit button -->
-  <button type="button" id="submit-btn" class="btn btn-warning">Submit</a
->
-</div>
-<!-- timer -->
-<div id="timer">
-    <div id="counter"></div>
-    <div id="timeGauge"></div>
-</div>
-<div id="progress"></div>
-</div>
-<div id="scoreContainer" style="display: none"></div>
-</div>
 
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -86,6 +63,9 @@
     crossorigin="anonymous"
   ></script>
   <script src="script.js"></script>
+<script src="highscores.js"></script>
 </html>
 
-<!-- put questions into pages, page 1, page 2 etc. -->
+
+<!-- local storage  -->
+<!-- create form input -->
