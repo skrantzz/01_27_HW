@@ -15,11 +15,12 @@ initials.addEventListener("keyup", () => {
   submitBtn.disabled = !initials.value;
 });
 
-var mostRecentScore = localStorage.getItem("timeLeft");
-console.log(mostRecentScore);
 var finalScore = document.getElementById("finalScore");
+// grabs score from local
+var grabsRecentScore = localStorage.getItem("mostRecentScore");
+finalScore.textContent = grabsRecentScore;
 
-finalScore.innerText = mostRecentScore;
+// finalScore.innerText = mostRecentScore;
 
 saveHighscore = e => {
   e.preventDefault();

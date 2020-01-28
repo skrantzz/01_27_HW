@@ -80,8 +80,6 @@ $("#start-btn").click(function() {
   }, 1000);
 });
 
-var mostRecentScore = timeLeft;
-console.log(timeLeft);
 var quizIndex = 0;
 
 function renderQuestion(questionArgument) {
@@ -105,7 +103,7 @@ function renderQuestion(questionArgument) {
         if (quizIndex === questions.length) {
           window.location.href = "highscore.html";
           //saving to local storage
-          localStorage.setItem("mostRecentScore", score);
+          localStorage.setItem("mostRecentScore", timeLeft);
         }
         // renders the next question
         renderQuestion(questions[quizIndex]);
