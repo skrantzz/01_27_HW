@@ -16,50 +16,50 @@ var questions = [
       "A & B"
     ],
     correctAnswer: 2
+  },
+  {
+    question: "Which one is NOT a JavaScript data type?",
+    answers: ["Number", "Sentence", "Undefined"],
+    correctAnswer: 1
+  },
+  {
+    question: "Which company developed JavaScript",
+    answers: ["Netgear", "Netscape", "Napster"],
+    correctAnswer: 1
+  },
+  {
+    question: "What is 'this' keyword?",
+    answers: [
+      "A keyword referring to the object from where it was called",
+      "The opposite of 'that'",
+      "A keyword referring to the function from where it was called "
+    ],
+    correctAnswer: 0
+  },
+  {
+    question: "Which symbol is used to comment something?",
+    answers: ["//", "/* */", "A & B"],
+    correctAnswer: 2
+  },
+  {
+    question: "Which is NOT type of pop up box in JavaScript?",
+    answers: ["Alert", "Prompt", "Message"],
+    correctAnswer: 2
+  },
+  {
+    question: "What are JavaScript Cookies?",
+    answers: [
+      "Chocolate Chip",
+      "The small test files stored in a computer which gets created when the user visits a website to store information they need",
+      "Oreos"
+    ],
+    correctAnswer: 1
+  },
+  {
+    question: "Why is Sydney so great?",
+    answers: ["She's cool", "She's pretty", "A & B"],
+    correctAnswer: 2
   }
-  //   {
-  //     question: "Which one is NOT a JavaScript data type?",
-  //     answers: ["Number", "Sentence", "Undefined"],
-  //     correctAnswer: 1
-  //   },
-  //   {
-  //     question: "Which company developed JavaScript",
-  //     answers: ["Netgear", "Netscape", "Napster"],
-  //     correctAnswer: 1
-  //   },
-  //   {
-  //     question: "What is 'this' keyword?",
-  //     answers: [
-  //       "A keyword referring to the object from where it was called",
-  //       "The opposite of 'that'",
-  //       "A keyword referring to the function from where it was called "
-  //     ],
-  //     correctAnswer: 0
-  //   },
-  //   {
-  //     question: "Which symbol is used to comment something?",
-  //     answers: ["//", "/* */", "A & B"],
-  //     correctAnswer: 2
-  //   },
-  //   {
-  //     question: "Which is NOT type of pop up box in JavaScript?",
-  //     answers: ["Alert", "Prompt", "Message"],
-  //     correctAnswer: 2
-  //   },
-  //   {
-  //     question: "What are JavaScript Cookies?",
-  //     answers: [
-  //       "Chocolate Chip",
-  //       "The small test files stored in a computer which gets created when the user visits a website to store information they need",
-  //       "Oreos"
-  //     ],
-  //     correctAnswer: 1
-  //   },
-  //   {
-  //     question: "Why is Sydney so great?",
-  //     answers: ["She's cool", "She's pretty", "A & B"],
-  //     correctAnswer: 2
-  //   }
 ];
 
 // amount of time per question

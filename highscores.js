@@ -20,8 +20,13 @@ var finalScore = document.getElementById("finalScore");
 var grabsRecentScore = localStorage.getItem("mostRecentScore");
 finalScore.textContent = grabsRecentScore;
 
-// finalScore.innerText = mostRecentScore;
-
-saveHighscore = e => {
+var saveHighscore = e => {
   e.preventDefault();
+  var initialValue = initials.value;
+  localStorage.setItem("initialValue", JSON.stringify(initialValue));
+  var highscoreDiv = document.createElement("div");
+  var renderScore = localStorage.getItem("initialValue");
+  highscoreDiv.innerHTML = renderScore;
+  questionContainer.append(highscoreDiv);
 };
+$("#userInitials").submit(saveHighscore);
